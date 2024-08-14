@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* NavBar.css */
+
+/* Navbar background color in the blue sector */
+.navbar {
+  background-color: #007bff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Remove list style */
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav item link styles */
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Ensure links do not change color after being clicked */
+.nav-link:visited {
+  color: white;
+}
+
+/* Additional styling for responsive behavior */
+.navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+
+/* For Boxicon inside the nav-item */
+.nav-link .box-icon {
+  display: flex;
+  align-items: center;
 }
