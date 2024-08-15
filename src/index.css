@@ -33,3 +33,7 @@
   display: flex;
   align-items: center;
 }
+.foot{
+  background-color: rgba(18,172,233,0.3);
+  margin-left: 5rem;
+}
